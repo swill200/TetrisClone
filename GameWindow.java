@@ -39,9 +39,10 @@ public class GameWindow extends Pane {
 	public Group curGroup;
 	public Timeline gamePlay;
 	public StackPane gameOver, pause;
-	public static AudioClip background = new AudioClip(new File("src/tetris/audio/tetris.wav").toURI().toString());
-	public AudioClip lineClear = new AudioClip(new File("src/tetris/audio/line_clear.wav").toURI().toString());
-	public AudioClip gameEnd = new AudioClip(new File("src/tetris/audio/game_end.wav").toURI().toString());;
+	// Need to add music
+// 	public static AudioClip background = new AudioClip(new File("src/tetris/audio/tetris.wav").toURI().toString());
+// 	public AudioClip lineClear = new AudioClip(new File("src/tetris/audio/line_clear.wav").toURI().toString());
+// 	public AudioClip gameEnd = new AudioClip(new File("src/tetris/audio/game_end.wav").toURI().toString());;
 	public static PreviewWindow preview = new PreviewWindow();
 
 	
