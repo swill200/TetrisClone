@@ -1,3 +1,10 @@
+/* Main application
+* Author: Stephen Williams
+* 
+* Purpose: A tetris game clone created for a final project in COSC 2030 at Laramie County Community College
+* 
+*/
+
 package tetris;
 
 import javafx.application.Application;
